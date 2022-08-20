@@ -17,6 +17,10 @@
 		D540569C28B1578E008C3EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D540568528B1578E008C3EF8 /* Assets.xcassets */; };
 		D54056A628B15E4A008C3EF8 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54056A528B15E4A008C3EF8 /* MainListView.swift */; };
 		D54056A728B15E4A008C3EF8 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54056A528B15E4A008C3EF8 /* MainListView.swift */; };
+		D54056AB28B15ED5008C3EF8 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54056AA28B15ED5008C3EF8 /* Memo.swift */; };
+		D54056AC28B15ED5008C3EF8 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54056AA28B15ED5008C3EF8 /* Memo.swift */; };
+		D54056AE28B1602A008C3EF8 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54056AD28B1602A008C3EF8 /* MemoStore.swift */; };
+		D54056AF28B1602A008C3EF8 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54056AD28B1602A008C3EF8 /* MemoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,8 @@
 		D540569028B1578E008C3EF8 /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D540569228B1578E008C3EF8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		D54056A528B15E4A008C3EF8 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		D54056AA28B15ED5008C3EF8 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		D54056AD28B1602A008C3EF8 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,8 @@
 		D54056A928B15E6D008C3EF8 /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				D54056AA28B15ED5008C3EF8 /* Memo.swift */,
+				D54056AD28B1602A008C3EF8 /* MemoStore.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -201,9 +209,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D540569328B1578E008C3EF8 /* SwiftUIMemo.xcdatamodeld in Sources */,
+				D54056AE28B1602A008C3EF8 /* MemoStore.swift in Sources */,
 				D54056A628B15E4A008C3EF8 /* MainListView.swift in Sources */,
 				D540569928B1578E008C3EF8 /* Persistence.swift in Sources */,
 				D540569528B1578E008C3EF8 /* SwiftUIMemoApp.swift in Sources */,
+				D54056AB28B15ED5008C3EF8 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,9 +222,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D540569428B1578E008C3EF8 /* SwiftUIMemo.xcdatamodeld in Sources */,
+				D54056AF28B1602A008C3EF8 /* MemoStore.swift in Sources */,
 				D54056A728B15E4A008C3EF8 /* MainListView.swift in Sources */,
 				D540569A28B1578E008C3EF8 /* Persistence.swift in Sources */,
 				D540569628B1578E008C3EF8 /* SwiftUIMemoApp.swift in Sources */,
+				D54056AC28B15ED5008C3EF8 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
