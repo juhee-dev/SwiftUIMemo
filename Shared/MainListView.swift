@@ -14,18 +14,7 @@ struct MainListView: View {
     var body: some View {
         NavigationView {
             List(store.list) { memo in
-                // VStack: 수직으로 정렬
-                // alignment: .leading: 왼쪽 정렬
-                VStack(alignment: .leading) {
-                    Text(memo.content)
-                        .font(.body)
-                        // 메모 내용을 한줄만 보여주고 나머지는 생략 처리
-                        .lineLimit(1)
-                    
-                    Text(memo.insertDate, style: .date)
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                }
+                MemoCell(memo: memo)
             }
             .listStyle(.plain)
             .navigationTitle("내 메모")
